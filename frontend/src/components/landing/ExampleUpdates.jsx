@@ -2,36 +2,36 @@ import { Reveal } from "@/components/landing/Reveal";
 
 const EXAMPLES = [
   {
+    type: "Metals",
+    title: "Silver Confluence",
+    message:
+      "Take a look at the message from Silver's daily and weekly charts. Does this mean $60/oz is inevitable? Both timeframes are aligning at key confluence levels.",
+    tags: ["Silver", "XAGUSD", "Charts", "Confluence"],
+    time: "Jun 11 • 10:47",
+  },
+  {
+    type: "Indices",
+    title: "How we obtained 28200 & 7280",
+    message:
+      "On Monday, we posted a chart showing the path to 28200 on Nasdaq100 — published when Nasdaq was at 28957. On Tuesday, Nasdaq recovered to 29800 ahead of the NY open, before dropping 1600 pts to print a session low of 28200 — not 28250 nor 28170, but 28200.",
+    tags: ["Nasdaq", "SP500", "Key Levels"],
+    time: "Jun 10 • 10:37",
+  },
+  {
+    type: "Indices",
+    title: "Nasdaq Bounce",
+    message:
+      "Nasdaq100 peaked at the 19% extension from its 200-day moving average, before tumbling 6%. The market will likely hold above the 28000 support — underlined by the May 6 gap — and capped by the 29700 resistance. More details to members of the WhatsApp Bdcst Group.",
+    tags: ["Nasdaq", "200-DMA", "Gaps", "Risk"],
+    time: "Jun 8 • 12:17",
+  },
+  {
     type: "FX",
     title: "USD pressure after yields roll over",
     message:
       "DXY is losing short-term momentum as US yields soften. EURUSD and gold both confirm the move for now. Watch for reversal if yields regain traction.",
     tags: ["DXY", "EURUSD", "Gold", "US10Y"],
-    time: "Mon • 09:18",
-  },
-  {
-    type: "Metals",
-    title: "Silver confirmation setup",
-    message:
-      "Silver remains the cleaner momentum read versus gold. XAG breakout needs confirmation from USD weakness and stable risk appetite.",
-    tags: ["Silver", "Gold", "USD", "Risk"],
-    time: "Tue • 13:44",
-  },
-  {
-    type: "Indices",
-    title: "Nasdaq extension warning",
-    message:
-      "Nasdaq remains extended versus moving averages. Momentum can continue, but risk/reward becomes less attractive without fresh macro support.",
-    tags: ["Nasdaq", "Risk", "Momentum"],
-    time: "Wed • 15:30",
-  },
-  {
-    type: "Central Banks",
-    title: "Fed pricing and FX reaction",
-    message:
-      "FX reaction remains tied to rate expectations. Watch whether the bond market confirms the Fed repricing before chasing USD moves.",
-    tags: ["Fed", "Bonds", "USD"],
-    time: "Thu • 10:05",
+    time: "Jun 5 • 09:18",
   },
 ];
 

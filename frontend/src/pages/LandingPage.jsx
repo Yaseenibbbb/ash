@@ -15,6 +15,7 @@ import { RiskDisclaimer } from "@/components/landing/RiskDisclaimer";
 import { FinalCTA } from "@/components/landing/FinalCTA";
 import { Footer } from "@/components/landing/Footer";
 import { StickyMobileCTA } from "@/components/landing/StickyMobileCTA";
+import { TickerStrip } from "@/components/landing/TickerStrip";
 import { FloatingAds } from "@/components/landing/Ads";
 
 export default function LandingPage() {
@@ -22,6 +23,7 @@ export default function LandingPage() {
     <div data-testid="landing-page" className="min-h-screen bg-[#FAFAFA] text-[#111827] antialiased">
       <Header />
       <main>
+        <TickerStrip />
         <Hero />
         <CredibilityStrip />
         <ProblemSection />

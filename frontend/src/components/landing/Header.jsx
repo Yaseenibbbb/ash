@@ -28,9 +28,14 @@ export const Header = () => {
         <button
           data-testid="header-wordmark"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="text-[17px] font-bold tracking-tight text-[#111827]"
+          className="text-left"
         >
-          Ashraf Laidi
+          <span className="block text-[17px] font-bold tracking-tight text-[#111827] leading-tight">
+            Ashraf Laidi
+          </span>
+          <span className="hidden lg:block font-mono text-[9px] uppercase tracking-[0.18em] text-[#A1A1AA]">
+            Incisive Global Markets Analysis
+          </span>
         </button>
 
         <nav className="hidden md:flex items-center gap-8" aria-label="Main navigation">
