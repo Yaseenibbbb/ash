@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
@@ -49,6 +50,13 @@ export const Header = () => {
               {item.label}
             </button>
           ))}
+          <Link
+            to="/book"
+            data-testid="nav-link-book"
+            className="text-sm font-medium text-[#6B7280] hover:text-[#111827] transition-colors"
+          >
+            Book
+          </Link>
         </nav>
 
         <div className="flex items-center gap-4">
@@ -89,6 +97,14 @@ export const Header = () => {
                     {item.label}
                   </button>
                 ))}
+                <Link
+                  to="/book"
+                  data-testid="mobile-nav-link-book"
+                  onClick={() => setOpen(false)}
+                  className="text-left text-base font-medium text-[#111827] py-3 border-b border-[#F4F4F5]"
+                >
+                  Book
+                </Link>
                 <button
                   data-testid="mobile-signin-link"
                   className="text-left text-base font-medium text-[#6B7280] py-3"
