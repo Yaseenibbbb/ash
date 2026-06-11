@@ -36,11 +36,11 @@ export default function BookPage() {
       {/* Header */}
       <header
         data-testid="book-header"
-        className="fixed top-0 inset-x-0 z-50 bg-white/70 backdrop-blur-xl border-b border-[#E4E4E7]"
+        className="fixed top-0 inset-x-0 z-50 bg-[#09090B]/80 backdrop-blur-xl border-b border-white/10"
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-10 h-16 flex items-center justify-between">
           <Link to="/" data-testid="book-header-wordmark" className="text-left">
-            <span className="block text-[17px] font-bold tracking-tight text-[#111827] leading-tight">
+            <span className="block text-[17px] font-bold tracking-tight text-[#F5F5F5] leading-tight">
               Ashraf Laidi
             </span>
             <span className="hidden lg:block font-mono text-[9px] uppercase tracking-[0.18em] text-[#A1A1AA]">
@@ -51,7 +51,7 @@ export default function BookPage() {
             <Link
               to="/"
               data-testid="book-back-link"
-              className="hidden sm:flex items-center gap-1.5 text-sm font-medium text-[#6B7280] hover:text-[#111827] transition-colors"
+              className="hidden sm:flex items-center gap-1.5 text-sm font-medium text-[#A1A1AA] hover:text-[#F5F5F5] transition-colors"
             >
               <ArrowLeft className="h-4 w-4" />
               WhatsApp Access
