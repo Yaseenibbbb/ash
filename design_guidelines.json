@@ -1,0 +1,168 @@
+{
+  "theme": "light",
+  "archetype": "Archetype 4 (Swiss & High-Contrast)",
+  "design_philosophy": "Vercel and Linear aesthetic. Dark, minimal, high-contrast foundations, minimal geometry, grids, clean spacing, thin borders, precise alignment. Large, confident headlines with clear sans-serif text. Minimal use of gradients; favor subtle depth through border highlights and glow effects. Serious independent macro analyst product. YC-style clarity.",
+  "colors": {
+    "light": {
+      "background": "#FAFAFA",
+      "surface": "#FFFFFF",
+      "muted_surface": "#F4F4F5",
+      "border": "#E4E4E7",
+      "text_primary": "#111827",
+      "text_secondary": "#6B7280",
+      "text_muted": "#A1A1AA",
+      "primary_accent": "#F97316",
+      "secondary_accent": "#2563EB",
+      "bullish_green": "#10B981",
+      "bearish_red": "#EF4444"
+    },
+    "dark": {
+      "background": "#09090B",
+      "surface": "#111318",
+      "card_surface": "#18181B",
+      "border": "rgba(255,255,255,0.08)",
+      "text_primary": "#F5F5F5",
+      "text_secondary": "#A1A1AA",
+      "accent": "#F97316"
+    }
+  },
+  "typography": {
+    "primary_font": "Geist Sans, Inter, sans-serif",
+    "secondary_font": "Geist Mono, JetBrains Mono, monospace",
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl lg:text-[64px] font-bold tracking-tighter leading-tight",
+      "h2": "text-3xl sm:text-[36px] font-bold tracking-tight leading-tight",
+      "h3": "text-xl sm:text-[24px] font-semibold tracking-tight",
+      "body_large": "text-lg leading-[30px]",
+      "body": "text-base leading-[28px]",
+      "metadata": "text-xs to text-sm uppercase tracking-widest font-mono"
+    }
+  },
+  "spacing_and_layout": {
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "section_spacing": "py-20 md:py-32",
+    "border_radius": "rounded-xl md:rounded-2xl",
+    "grid_gap": "gap-6 md:gap-8 lg:gap-12",
+    "card_padding": "p-6 md:p-8"
+  },
+  "motion_and_interactions": {
+    "hover_states": "subtle lift (-translate-y-1) with shadow increase. Use transition-all duration-300 ease-in-out.",
+    "reveal_animations": "framer-motion for initial section entry. Fade in and slide up from 20px over 0.6s. Do not overuse.",
+    "buttons": "solid background, slight scale down on active."
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#F97316] text-white hover:bg-[#EA580C] px-6 py-3 rounded-lg font-medium transition-colors",
+      "secondary": "bg-[#F4F4F5] text-[#111827] hover:bg-[#E4E4E7] border border-[#E4E4E7] px-6 py-3 rounded-lg font-medium transition-colors"
+    },
+    "cards": {
+      "light": "bg-white border border-[#E4E4E7] rounded-xl shadow-sm hover:shadow-md transition-shadow",
+      "dark": "bg-[#18181B] border border-[rgba(255,255,255,0.08)] rounded-xl"
+    },
+    "whatsapp_message": {
+      "container": "bg-[#F4F4F5] rounded-xl p-4 border border-[#E4E4E7] max-w-sm font-mono text-sm shadow-sm relative",
+      "timestamp": "text-[10px] text-[#A1A1AA] absolute bottom-2 right-3"
+    },
+    "market_ticker": {
+      "container": "flex items-center gap-2 px-3 py-1.5 rounded-md bg-[#F4F4F5] border border-[#E4E4E7] font-mono text-sm",
+      "positive": "text-[#10B981]",
+      "negative": "text-[#EF4444]"
+    }
+  },
+  "media": {
+    "icons": "Use react-icons/si for company logos (SiWhatsapp, etc). Use lucide-react for UI icons.",
+    "image_urls": {
+      "testimonial_1": {
+        "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMGhlYWRzaG90fGVufDB8fHx8MTc4MTE5OTQ0MXww&ixlib=rb-4.1.0&q=85",
+        "description": "Professional male headshot for testimonial"
+      },
+      "testimonial_2": {
+        "url": "https://images.unsplash.com/photo-1506863530036-1efeddceb993?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMGhlYWRzaG90fGVufDB8fHx8MTc4MTE5OTQ0MXww&ixlib=rb-4.1.0&q=85",
+        "description": "Professional female headshot for testimonial"
+      },
+      "testimonial_3": {
+        "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMGhlYWRzaG90fGVufDB8fHx8MTc4MTE5OTQ0MXww&ixlib=rb-4.1.0&q=85",
+        "description": "Professional male headshot for testimonial"
+      }
+    }
+  },
+  "sections": [
+    {
+      "name": "1. Sticky Header",
+      "style": "light",
+      "instructions": "glassmorphism backdrop-blur-xl bg-white/70. 'Ashraf Laidi' wordmark on left. Nav links center (What You Get, Examples, Pricing, FAQ). Sign in and 'Join WhatsApp Access' CTA button right. Sticky z-50. Include data-testid on links and buttons."
+    },
+    {
+      "name": "2. Hero Section",
+      "style": "light",
+      "instructions": "Left: Strong headline, subheadline, primary CTA. Right: Composition of a mock WhatsApp-style broadcast preview card layered with a small market dashboard card showing DXY/XAUUSD/EURUSD/US10Y/NASDAQ mock changes. Use subtle radial grid background via CSS. Include data-testid."
+    },
+    {
+      "name": "3. Credibility Strip",
+      "style": "light",
+      "instructions": "Minimalist grayscale logos (use text or basic typographic SVGs if exact logos unavailable for CNBC, Bloomberg, Al Arabiya). Text details like 'Author of Currency Trading and Intermarket Analysis'. Very subtle border top and bottom."
+    },
+    {
+      "name": "4. Problem Section",
+      "style": "light",
+      "instructions": "3 bento-style cards detailing the problem with standard market noise vs signal."
+    },
+    {
+      "name": "5. Product Preview",
+      "style": "light",
+      "instructions": "3 stacked message cards on the left overlapping each other slightly. 'Typical update includes' side panel on the right with a list. Minimal UI."
+    },
+    {
+      "name": "6. What You Get",
+      "style": "light",
+      "instructions": "2x3 grid of benefit cards using lucide icons. Very clean Linear-style borders. Mini CTA below."
+    },
+    {
+      "name": "7. Example WhatsApp Updates",
+      "style": "dark",
+      "instructions": "Transition to dark section. 4 message-style cards mimicking actual premium insights. Include type badges: FX, Metals, Indices, Central Banks. Use mono typography for data points within messages."
+    },
+    {
+      "name": "8. Markets Covered",
+      "style": "dark",
+      "instructions": "Dense grid of ticker chips using mono font. Include subtle positive/negative indicator colors but keep it muted. e.g., 'XAU/USD', 'DXY', 'SPX'."
+    },
+    {
+      "name": "9. How It Works",
+      "style": "light",
+      "instructions": "Return to light section. 3-step horizontal stepper. Minimalist numbers, concise text."
+    },
+    {
+      "name": "10. Pricing",
+      "style": "light",
+      "instructions": "2 cards side-by-side. 6 Months ($550) vs Yearly ($995). Yearly gets a subtle 'Best Value' highlight using primary accent #F97316. Add compliance disclaimer below cards in muted text."
+    },
+    {
+      "name": "11. Testimonials",
+      "style": "light",
+      "instructions": "3 professional cards using provided unsplash headshots. Focus on professional roles, no unrealistic profit claims."
+    },
+    {
+      "name": "12. FAQ",
+      "style": "light",
+      "instructions": "Use shadcn Accordion component for 8 items. Left aligned, clear, no borders except bottom line."
+    },
+    {
+      "name": "13. Risk Disclaimer",
+      "style": "light",
+      "instructions": "Bordered card, muted text. Serious, legal language style. Not scary, just compliant."
+    },
+    {
+      "name": "14. Final CTA",
+      "style": "dark",
+      "instructions": "Deep dark background (#09090B), strong contrast headline. Primary CTA button. High impact, closing statement."
+    },
+    {
+      "name": "15. Footer",
+      "style": "dark",
+      "instructions": "Minimal links. Copyright. Social links using react-icons."
+    }
+  ],
+  "mobile_specific": "Sticky bottom CTA to appear after scrolling past hero. Hamburger Sheet drawer for navigation instead of hiding links. Stacked cards for all grids.",
+  "testing": "All interactive and key informational elements MUST include a data-testid attribute in kebab-case."
+}
