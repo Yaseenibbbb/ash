@@ -25,6 +25,10 @@ Build a high-converting, premium, standalone landing page selling paid access to
 - ✅ FAQ shadcn Accordion (8 items), risk disclaimer, dark final CTA, minimal footer
 - ✅ Reveal animations (framer-motion, reduced-motion supported), data-testid on all interactive elements
 - ✅ E2E tested (iteration_1): 100% pass; a11y SheetTitle fix applied
+- ✅ Real member testimonials (Joe, Christine, Phil, Michael, Vaughn, Andrew, Dragan) as WhatsApp-style cards (Jun 2026)
+- ✅ Floating sponsored ads (Eightcap + XM) stacked on right side, dismissible, xl+ only (Jun 2026)
+- ✅ Ticker strip below header + "Incisive Global Markets Analysis" tagline + real analysis examples (Silver Confluence, Nasdaq 28200, Nasdaq Bounce) from old site content (Jun 2026)
+- ✅ Book page at /book — "Currency Trading and Intermarket Analysis" (Wiley 2008): dark hero with cover, #1 Amazon badge, accolades, 9-chapter accordion, Buy Now → Amazon affiliate link; landing teaser section + Book nav link; E2E tested iteration_2 100% pass (Jun 2026)
 
 ## Backlog
 - P0: Connect pricing CTAs to real checkout (Stripe available with test key) + WhatsApp number registration flow
