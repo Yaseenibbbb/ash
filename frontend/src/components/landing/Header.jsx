@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { scrollToSection } from "@/lib/scrollTo";
 
 const NAV_ITEMS = [
@@ -72,6 +72,7 @@ export const Header = () => {
               </button>
             </SheetTrigger>
             <SheetContent side="right" className="bg-white w-72">
+              <SheetTitle className="sr-only">Menu</SheetTitle>
               <div className="flex flex-col gap-2 mt-10">
                 {NAV_ITEMS.map((item) => (
                   <button
