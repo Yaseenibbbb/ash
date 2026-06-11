@@ -10,6 +10,7 @@ import { MarketsCovered } from "@/components/landing/MarketsCovered";
 import { HowItWorks } from "@/components/landing/HowItWorks";
 import { Pricing } from "@/components/landing/Pricing";
 import { Testimonials } from "@/components/landing/Testimonials";
+import { PartnerAds } from "@/components/landing/PartnerAds";
 import { FAQ } from "@/components/landing/FAQ";
 import { RiskDisclaimer } from "@/components/landing/RiskDisclaimer";
 import { FinalCTA } from "@/components/landing/FinalCTA";
@@ -31,6 +32,7 @@ export default function LandingPage() {
         <HowItWorks />
         <Pricing />
         <Testimonials />
+        <PartnerAds />
         <FAQ />
         <RiskDisclaimer />
         <FinalCTA />
