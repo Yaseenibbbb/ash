@@ -18,7 +18,7 @@ const MessageTag = ({ label }) => (
 );
 
 export const Hero = () => (
-  <section data-testid="hero-section" className="relative pt-16 pb-20 md:pt-24 md:pb-28 overflow-hidden">
+  <section data-testid="hero-section" className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
     <div className="absolute inset-0 hero-grid-bg" aria-hidden="true" />
     <div
       className="absolute -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[500px] rounded-full opacity-[0.07] blur-3xl"
